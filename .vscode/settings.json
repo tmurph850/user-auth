@@ -1,0 +1,64 @@
+{
+    "telemetry.enableTelemetry": false,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "One Dark Pro",
+    "window.restoreWindows": "all",
+    "editor.rulers": [],
+    "editor.fontSize": 13,
+    "editor.minimap.enabled": false,
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "eslint.options": {
+        "extensions": [".js", ".vue"]
+    },
+   /* "eslint.validate": [{
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "javascriptreact",
+            "autoFix": true
+        }
+    ],*/
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "C_Cpp.updateChannel": "Insiders",
+    "python.jediEnabled": false,
+    "php.validate.executablePath": "/usr/local/Cellar/php/8.0.1_1/bin/php",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "better-phpunit.docker.enable": true,
+    "better-phpunit.docker.command": "docker-compose --env-file /Users/aap-timmurphy/repos/user-auth/laradock/.env -f /Users/aap-timmurphy/repos/user-auth/laradock/docker-compose.yml exec workspace",
+    "better-phpunit.docker.paths": {
+        "/Users/aap-timmurphy/repos/user-auth/":"/var/www/",
+    },
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1615407040463,
+    "files.watcherExclude": {
+        "**/vendor/**/*.php": true
+    },
+    "aws.profile": "profile:default",
+    "aws.logLevel": "debug",
+    "python.languageServer": "Microsoft",
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
+}
